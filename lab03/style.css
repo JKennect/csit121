@@ -1,0 +1,44 @@
+body{
+    background-color:blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+text-align: center;
+background-color: darkgoldenrod;
+color:white;
+}
+
+h2{
+    border: 5px dotted darkgoldenrod;
+}
+
+p{
+    font-size: 20px;
+}
+
+h3{
+    border: 5px dotted darkgoldenrod;
+}
+
+li{
+    font-size: 20px;
+}
+
+footer{
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+#second-paragraph{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list{
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+a{
+    color: white;
+}
