@@ -1,0 +1,35 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    border: 2px groove #5543f9
+}
+
+footer{
+    border: 2px groove #5543f9;
+}
+
+img{
+    width: 25%;
+    border: 2px groove #5543f9;
+    background-color: white;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+font-style: italic;
+text-decoration: none;
+}
+
+.current{
+    border: 2px groove #2250e5;
+    font-weight: bold;
+}
