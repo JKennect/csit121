@@ -1,0 +1,84 @@
+body{
+    background-color:blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+text-align: center;
+background-color: darkgoldenrod;
+color:white;
+}
+
+h2{
+    border: 5px dotted darkgoldenrod;
+}
+
+p{
+    font-size: 20px;
+}
+
+h3{
+    border: 5px dotted darkgoldenrod;
+}
+
+li{
+    font-size: 20px;
+}
+
+footer{
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+#second-article{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list{
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+}
+
+.navbar{
+    border-radius: 5px;
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+    body{
+        font-size: medium;
+    }
+}
+
+@media (max-width: 576px){
+    .navbar{
+        display: none;
+    }
+    body{
+        font-size: small;
+    }
+    p{
+        font-size: small;
+    }
+    li{
+        font-size: small;
+    }
+}
