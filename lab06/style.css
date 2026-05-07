@@ -1,0 +1,28 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 500px;
+    height: auto;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+p{
+}
+
+header{
+    background-color: red;
+    color: white;
+}
+
+footer{
+    background-color: red;
+     color: white;
+}
+
+h3{
+    border: 2px outset red;
+    border-radius: 5px;
+}
