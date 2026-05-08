@@ -1,0 +1,86 @@
+
+.tierletter{
+    width: 40px;
+    height: 100px;
+}
+
+#stier{
+background-color: rgb(255, 127, 127);
+}
+#atier{
+background-color: rgb(255, 191, 127);
+}
+
+#btier{
+background-color: rgb(255, 223, 127);
+}
+
+#ctier{
+background-color: rgb(255, 255, 127);
+  
+}
+
+#dtier{
+background-color: rgb(191, 255, 127);
+}
+
+table{
+    table-layout: fixed;
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th{
+color: white;
+background-color: black;
+}
+
+tr{
+    border-bottom: 2px solid black;
+}
+
+td{
+    border-right: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+body{
+    background-color: gray;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     margin: 0;;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid whitesmoke;
+}
+
+header{
+     background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+a{
+    color: white;
+}
+
+nav{
+    background-color: black;
+    border-bottom: 1px solid whitesmoke;
+    width: 100%;
+    padding: 10px;
+}
+
+form{
+    margin: 10px;
+}
+
+
+
