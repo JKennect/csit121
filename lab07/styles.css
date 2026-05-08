@@ -28,7 +28,6 @@ table{
     table-layout: fixed;
     border: 5px solid black;
     border-collapse: collapse;
-    margin: 20px;
 }
 
 th{
@@ -47,15 +46,18 @@ td{
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0%;
     background-color: gray;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     margin: 0;;
 }
 
 footer{
+    margin-top: auto;
     background-color: black;
     color: white;
-    width: 100%;
     padding: 10px;
     border-top: 1px solid whitesmoke;
 }
@@ -78,7 +80,7 @@ nav{
     padding: 10px;
 }
 
-form{
+main {
     margin: 10px;
 }
 
