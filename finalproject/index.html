@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - PixelForge Studios</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                    <a href="index.html"><img id="navbaricon" src="images/PixelForge-transparent.png" alt="picture of PixelForge Studios logo. Featuring a shark and anvil"></a>
+                    <a href="index.html" class="active">HOME</a>
+                     <a href="games.html">GAMES</a>
+                    <a href="demos.html">DEMOS</a>
+                    <a href="blog.html">BLOG</a>
+                    <a href="aboutus.html">ABOUT US</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero herohome">
+        <div class="herotext">
+            <h1>Discover New Worlds</h1>
+            <h2>Built Pixel by Pixel</h2>
+            <p>With PixelForge Studios, every game is handcrafted fun!</p>
+            <p>Explore three unique pixel adventures: battle through ancient kingdoms in Kingdom Quest, survive shark-infested oceans in Shark Survival Crafting, and platform across a mysterious fantasy world alongside a brave blue-scarfed dog in Brave Bark. From epic quests to chaotic survival and heartfelt adventures, there’s a world waiting for every kind of player.</p>
+        </div>
+        </section>
+        <section class="ourgames">
+            <h1>Our Games</h1>
+            <div class="container">
+            <a href="games.html#gameskingdomquest"><img src="images/KingdomQuest.png" alt="Kingdom Quest logo featuring a castle, sword in stone, and a galaxy background"></a>
+            <a href="games.html#gamessharksurvival"><img src="images/SharkSurvivalCrafting.png" alt="Shark Survival Crafting logo featuring a lunging shark, an island, and a raft"></a>
+            <a href="games.html#gamesbravebark"><img src="images/BraveBark.png" alt="Brave Bark logo featuring a dog wearing a blue neckerchief, the Maryland flag, a forest, and a bird on a rock"></a>
+            </div>
+        </section>
+        <section class="demos">
+            <h1>Try Before You Quest!</h1>
+            <p>Take our games for a test run before the full journey begins!</p>
+            <a href="demos.html">Try Demos</a>
+        </section>
+        <section class="ourblog">
+            <h1>Latest News</h1>
+            <h2>Lessons Learned While Building a Website</h2>
+            <p>Building a Website is its own adventure! here are some of the lessons we learned along the way.</p>
+            <a href="blog.html">View Blog</a>
+        </section>
+        <section class="homeaboutus">
+            <h1>About us</h1>
+            <h2>Meet the team behind the adventures, the pixels, and the questionable design decisions.</h2>
+            <a href="aboutus.html">Meet The Team</a>
+        </section>
+    </main>
+    <footer>
+     <p>&copy; 2026 SkyForge Studios</p>   
+    </footer>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
+

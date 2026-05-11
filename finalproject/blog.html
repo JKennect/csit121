@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - PixelForge Studios</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                    <a href="index.html"><img id="navbaricon" src="images/PixelForge-transparent.png" alt="picture of PixelForge Studios logo. Featuring a shark and anvil"></a>
+                    <a href="index.html">HOME</a>
+                     <a href="games.html">GAMES</a>
+                    <a href="demos.html">DEMOS</a>
+                    <a href="blog.html"  class="active">BLOG</a>
+                    <a href="aboutus.html">ABOUT US</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <h1 class="pageheading">Blog</h1>
+    <article class="blog">
+      <h2>Lessons learned While Building a Website</h2>
+      <h3>Published May 2026 by J</h3>
+      <h3>Approved by Alan Smithee</h3>
+      <p>
+        While doing this project, I learned that you shouldn't really prioritize making lore for a website over actually making a website.
+        While the HTML is fine, the CSS page looks like a mess. There are too many redundant classes that do the same thing. The CSS and HTML for topnav came straight form lab 08. Some things do not resize properly. Even though the CSS looks messy, the site itself does not look too bad. I think prospective customers will have a laugh
+        at some of the content on the site. Overall, I say I did a good job.
+        The most tedious part of this project ways coming up with lore for PixelForge Studios. Although it was tedious, It was kind of fun. I spent over a day trying to generate content to go on the site. It also took me way too long to get the favicon working correctly</p>
+      <p>
+        While testing the site, I noticed that things really stretch out on an ultrawide monitor. monitors like mine are not that common, so websites tend to have lots of empty space left over.
+        Safari on Mac would not display the favicon from the html file. Chrome displayed it fine. Trying to view the file from the original file on an iphone strips out the CSS. 
+      </p>
+      <p>
+        In this class, I learned about how website work then I did previously. The site that I made in another class was barebones compared to this final project site. Learning how to use an external stylesheet saves a lot of time over copying and pasting code each time inline. Flexboxes helped to make sites not look like reading a newspaper
+        I would say that I have made a big improvement over the last few months. I think that the class was fun. We had a lot of freedom to customize sites. 
+      </p>
+    </article>
+    </main>
+     <footer>
+     <p>&copy; 2026 SkyForge Studios</p>   
+    </footer>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
+
